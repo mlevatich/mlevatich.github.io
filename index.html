@@ -1,18 +1,177 @@
 <html>
-<head><title>Maxwell Levatich</title></head>
-<body style="background-color:rgba(150,184,221,0.3);width:100%;overflow-x:hidden;overflow-y:scroll" onLoad="document.fake.q.focus()">
-    <center>
-        <H2>
-            Maxwell Levatich
-            <br>
-            <font size="+1">
-                <a href="https://www.cs.columbia.edu/">Computer Science</a>
-                PhD student at
-                <a href="https://www.columbia.edu/">Columbia University</a>.
-            </font>
-            <br>
-        </H2>
-    </center>
-    <img src="pictures/me.jpeg" width="300" height="400">
+<head>
+    <title>Maxwell Levatich</title>
+    <style>
+        .main {
+          text-align: left;
+          width: 600px;
+          margin: auto;
+          font-family: "Monaco", "Lucida Console", monospace;
+          color: rgb(230, 230, 230);
+          font-size: 14px;
+        }
+        .container {
+        }
+        .container:before,
+        .container:after {
+            content: "";
+            display: table;
+        }
+        .container:after {
+            clear: both;
+        }
+        .page {
+            background-color: rgb(20, 20, 20);
+            width: 100%;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+        .h1 {
+            font-size: 1.5em;
+            color: rgb(100, 200, 255);
+        }
+        .h2 {
+            font-weight: bold;
+            color: rgb(100, 200, 255);
+        }
+        .lfloat {
+            margin: 0px 15px 0px 0px;
+            float: left;
+        }
+        .rfloat {
+            margin: 0px 0px 0px 15px;
+            float: right;
+        }
+        a:link {
+          color: rgb(230, 230, 230);
+          text-decoration: underline;
+        }
+        a:visited {
+          color: rgb(230, 230, 230);
+          text-decoration: underline;
+        }
+        a:hover {
+          color: rgb(230, 230, 230);
+          text-decoration: underline;
+        }
+        a:active {
+          color: rgb(230, 230, 230);
+          text-decoration: underline;
+        }
+        .footer {
+            text-decoration: overline;
+            color: rgb(100, 100, 100);
+        }
+    </style>
+</head>
+<body class="page">
+    <div class="main">
+        <br>
+        <div class="container">
+            <span class="h1"> Maxwell Levatich </span> <br>
+            <span class="lfloat">
+                ml4553@columbia.edu | 424 W 119th St |
+                <a href="https://github.com/mlevatich">Projects</a> |
+                <a href="/resume.pdf">Resume</a>
+            </span>
+        </div>
+        <br>
+        <div class="container">
+            <img class="lfloat" src="pictures/me.jpeg" width="200" height="266">
+            <p class="h2"> () Introduction </p>
+            <p>
+                Hello! My name is Maxwell Levatich, but I usually go by Max. I'm
+                a Computer Science PhD student studying at
+                <a href="https://www.cs.columbia.edu/">Columbia Unversity</a>
+                in New York City. I graduated from
+                <a href="https://cpsc.yale.edu/">Yale University</a> in 2020
+                with a B.S. and M.S. in Computer Science.
+            </p>
+            <p>
+                I'm currently working with
+                <a href="http://www.cs.columbia.edu/~sedwards/">Stephen Edwards</a>
+                on formal methods and decision procedures, and how
+                they can be used to make building software systems safer and
+                easier.
+            </p>
+        </div>
+        <div class="container">
+            <p class="h2"> () Publications </p>
+            <p>
+                Nikolaj Bjorner, Maxwell Levatich, Nuno P. Lopes,
+                Andrey Rybalchenko, Chandrasekar Vuppalapati:
+                <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-78230-6_1">Supercharging Plant Configurations Using Z3</a>.
+                CPAIOR 2021: 1-25
+            </p>
+            <p>
+                Maxwell Levatich, Nikolaj Bjorner, Ruzica Piskac, Sharon Shoham:
+                <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-39322-9_17">Solving LIA* Using Approximations</a>.
+                VMCAI 2020: 360-378
+            </p>
+        </div>
+        <div class="container">
+            <p class="h2"> () Teaching </p>
+            <p>
+                Teaching CS is my absolute favorite thing to do; I hope to
+                teach a CS course of my own someday soon. In the meantime, I've
+                enjoyed being a TA for the following courses:
+            </p>
+            <blockquote>
+                <a href="http://www.cs.columbia.edu/~sedwards/classes/2021/4995-fall/index.html">COMS 4995</a>:
+                Parallel Functional Programming. Columbia University, Fall 2021.
+                Role: TA
+            </blockquote>
+            <blockquote>
+                <a href="http://www.cs.columbia.edu/~sedwards/classes/2021/4115-fall/index.html">COMS 4115</a>:
+                Programming Languages and Translators. Columbia University,
+                Fall 2021. Role: TA
+            </blockquote>
+            <blockquote>
+                <a href="https://www.cs50.yale.edu/2021/fall/">CS 50</a>:
+                Introduction to Computer Science. Yale University,
+                Harvard University, Fall 2017 - Fall 2019. Role: Head TA
+            </blockquote>
+            <blockquote>
+                <a href="http://cs112.cs.yale.edu/2020A/">CS 112</a>:
+                Introduction to Computer Programming. Yale University, Spring
+                2018 - Spring 2019. Role: Head TA
+            </blockquote>
+        </div>
+        <div class="container">
+            <p class="h2"> () Game Development </p>
+            <p>
+                When I have spare time, I like to make video games! Here are
+                some of my projects:
+            </p>
+            <blockquote>
+                <a href="https://github.com/mlevatich/Abelon">Abelon</a>: My
+                current project. A 2D, top-down story told through exploration
+                and turn-based tactical combat. Written in Lua using the Love2D
+                engine. Become the knight Abelon and take on the world!
+            </blockquote>
+            <blockquote>
+                <a href="https://github.com/amritrau/shadow-hunters">Shadow Hunters</a>:
+                A collaboration with four friends to re-create the cult classic
+                board game
+                <a href="https://en.wikipedia.org/wiki/Shadow_Hunters">Shadow Hunters</a>
+                as an online multiplayer game. Written in Python and Phaser
+                using Flask and SocketIO. Play it
+                <a href="http://shadowhunters.live/">here</a>!
+            </blockquote>
+            <blockquote>
+                <a href="https://github.com/mlevatich/GUY_BATTLE">Guy Battle</a>:
+                A 2D fighting game where you control a spellcasting Guy and
+                battle other Guys. Battle a friend by sharing the keyboard or
+                fight a horde of AI Guys! Written in C using SDL for rendering
+                and audio.
+            </blockquote>
+            <blockquote>
+                <a href="https://github.com/mlevatich/csee6863-project">Asteroids</a>:
+                A two-person quest to use CBMC to verify a non-trivial video
+                game implementation using bounded model-checking. More to come!
+            </blockquote>
+        </div>
+        <br><a class="footer"> Last modified 11/03/2021 </a><br>
+    </div>
 </body>
 </html>
