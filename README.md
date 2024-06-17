@@ -1,1 +1,1 @@
-## Personal website for Max Levatich
+## Personal website for Maxwell Levatich
