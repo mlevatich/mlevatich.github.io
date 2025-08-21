@@ -1,0 +1,66 @@
+@font-face { font-family: fira; src: url('FiraSans-Regular.ttf'); }
+.main {
+    text-align: left;
+    width: 880px;
+    padding: 20px;
+    margin: auto;
+    font-family: "fira", "Lucida Console", monospace;
+    color: rgb(20, 20, 20);
+    font-size: 17px;
+    background-color: rgb(235, 240, 255);
+    box-shadow: 5px 10px rgb(235, 240, 245);
+    outline: 2px solid rgb(100,100,100);
+}
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+.container:after {
+    clear: both;
+}
+.page {
+    width: 100%;
+    background-color: rgb(245, 250, 255);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.h1 {
+    font-size: 1.5em;
+    color: rgb(60, 140, 200);
+}
+.h2 {
+    font-weight: bold;
+    color: rgb(60, 140, 200);
+}
+.h3 {
+    color: rgb(20, 100, 160);
+}
+.lfloat {
+    margin: 0px 15px 0px 0px;
+    float: left;
+}
+.rfloat {
+    margin: 0px 0px 0px 15px;
+    float: right;
+}
+a:link {
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+}
+a:hover {
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+}
+.footer {
+    text-decoration: overline;
+    color: rgb(100, 100, 100);
+}

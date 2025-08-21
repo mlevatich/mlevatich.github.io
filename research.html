@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Maxwell Levatich: Research</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="page">
+    <div class="main">
+        <div class="container">
+            <span class="h1"> Maxwell Levatich </span> <br><br>
+
+            <span class="lfloat">
+                <a href="index.html">Home</a> |
+                <a href="cv/cv.pdf">Curriculum Vitae</a> |
+                <a href="teaching.html">Teaching</a> |
+                <a href="research.html">Research</a> |
+                <a href="personal.html">Personal</a> |
+                <a href="https://github.com/mlevatich">Software Projects</a>
+                
+            </span>
+            <br><br>
+        </div>
+        <div class="container">
+            <p class="h2"> Research interests </p>
+            <p>
+                My research is on developing scalable, static dataflow analyses for C programs that don't sacrifice soundness even in the face of undecidable pointer analysis. I take inspiration from iterative, constraint-based <a href="https://en.wikipedia.org/wiki/Counterexample-guided_abstraction_refinement">techniques</a> in symbolic model checking and program verification, my initial area of study. I am also fond of <a href="https://github.com/Z3Prover/z3">SMT solvers</a>, and I find ways to leverage their power to tackle the difficult kernels of my algorithms.
+            </p>
+            <p>
+                My recent work applies these scalable algorithms to secure <a href="https://arxiv.org/abs/2410.08434">application compartmentalization</a> by precisely tracking how sensitive data moves through a program's pointer dependencies.
+            </p>
+        </div>
+        <div class="container">
+            <p class="h2"> Publications </p>
+            <div>
+                <a style="font-size:30px;float:left;width:5%;margin-left:5px;margin-top:15px;" class="fa"></a>
+                <p style="width:95%">
+                    <u>Levatich, M.</u>, & Edwards, S. A. Anonymous submission under review. ICSE 2026.
+                </p>
+            </div>
+            <div>
+                <a style="color:rgb(180,50,50);font-size:30px;float:left;width:5%;margin-left:5px;margin-top:15px;" href="milcom.pdf" class="fa">&#xf1c1;</a>
+                <p style="width:95%">
+                    <u>Levatich, M.</u>, Brotzman, R., Flin, B., Chen, T., Krishnan, R., & Edwards, S. A. (2022, November). <b>C Program Partitioning with Fine-Grained Security Constraints and Post-Partition Verification</b>. In MILCOM 2022-2022 IEEE Military Communications Conference (MILCOM) (pp. 285-291). IEEE.
+                </p>
+            </div>
+            <div>
+                <a style="color:rgb(180,50,50);font-size:30px;float:left;width:5%;margin-left:5px;margin-top:15px;" href="supercharge.pdf" class="fa">&#xf1c1;</a>
+                <p style="width:95%">
+                    Bjørner, N., <u>Levatich, M.</u>, Lopes, N. P., Rybalchenko, A., & Vuppalapati, C. (2021, June). <b>Supercharging plant configurations using Z3</b>. In International Conference on Integration of Constraint Programming, Artificial Intelligence, and Operations Research (pp. 1-25). Cham: Springer International Publishing.
+                </p>
+            </div>
+            <div>
+                <a style="color:rgb(180,50,50);font-size:30px;float:left;width:5%;margin-left:5px;margin-top:15px;" href="solving-lia-star.pdf" class="fa">&#xf1c1;</a>
+                <p style="width:95%">
+                    <u>Levatich, M.</u>, Bjørner, N., Piskac, R., & Shoham, S. (2020, January). <b>Solving LIA* using approximations</b>. In International Conference on Verification, Model Checking, and Abstract Interpretation (pp. 360-378). Cham: Springer International Publishing.
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <p class="h2"> Selected talks </p>
+            <p>Solving LIA* Using Approximations (Presented at VMCAI 2020)</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uywZtiyKFCM?si=IhfqhtBISkKUm-yv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <br><span class="footer"> Last modified 8/20/2025 </span><br>
+    </div>
+</body>
+</html>
