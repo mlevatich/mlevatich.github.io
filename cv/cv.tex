@@ -77,8 +77,8 @@
 \renewcommand\labelitemi{$\circ$} % custom bullet points
 \newenvironment{highlights}{
     \begin{itemize}[
-        topsep=0.10 cm,
-        parsep=0.10 cm,
+        topsep=0.05 cm,
+        parsep=0.05 cm,
         partopsep=0pt,
         itemsep=0pt,
         leftmargin=0.4 cm + 10pt
@@ -113,7 +113,7 @@
 \newenvironment{twocolentry}[2][]{
     \onecolentry
     \def\secondColumn{#2}
-    \setcolumnwidth{\fill, 4.5 cm}
+    \setcolumnwidth{\fill, 5.5 cm}
     \begin{paracol}{2}
 }{
     \switchcolumn \raggedleft \secondColumn
@@ -183,7 +183,7 @@
 
     \section{Education}
 
-        \begin{twocolentry}{\textit{Sept 2020 – Present}}
+        \begin{twocolentry}{{Sept 2020 – Present}}
             \textbf{Columbia University}
             \textit{PhD in Computer Science}
         \end{twocolentry}
@@ -195,9 +195,9 @@
             \end{highlights}
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.4 cm}
 
-        \begin{twocolentry}{\textit{Sept 2016 – May 2020}}
+        \begin{twocolentry}{{Sept 2016 – May 2020}}
             \textbf{Yale University}
             \textit{BS and MS in Computer Science}
         \end{twocolentry}
@@ -211,137 +211,220 @@
 
     \section{Teaching}
         
-        \begin{twocolentry}{
-        \textit{Cupertino, CA}    
+        \begin{twocolentry}{Fall 2025
             
-        \textit{June 2005 – Aug 2007}}
-            \textbf{Software Engineer}
+            \textit{Columbia University}}
+            \textbf{COMS 4995: Parallel Functional Programming}
             
-            \textit{Apple}
+            \textit{Instructor of Record}
         \end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Reduced time to render user buddy lists by 75\% by implementing a prediction algorithm
-                \item Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-                \item Redesigned chat file format and implemented backward compatibility for search
+                \item Lectured to 50 students in upper-level elective covering Haskell and its support for parallelism
+                \item Augmented existing syllabus with live-coding exercises and weekly short quizzes for attendance
             \end{highlights}
         \end{onecolentry}
 
+        \vspace{0.4 cm}
 
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-        \textit{Redmond, WA}    
+        \begin{twocolentry}{Fall 2023
             
-        \textit{June 2003 – Aug 2003}}
-            \textbf{Software Engineer Intern}
+            \textit{Columbia University}}
+            \textbf{ENGI 1006: Introduction to Computing for Applied Scientists}
             
-            \textit{Microsoft}
+            \textit{Head Teaching Assistant (1 of 10)}
         \end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-                \item Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-                \item Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-                \item Created a test case generation tool that creates random XML docs from XML Schema
-                \item Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+                \item Held weekly review section with supplemental exercises
+                \item Designed exam questions and exam review exercises
             \end{highlights}
         \end{onecolentry}
+
+        \vspace{0.4 cm}
+
+        \begin{twocolentry}{Fall 2021
+            
+            \textit{Columbia University}}
+            \textbf{COMS 4995: Parallel Functional Programming}
+            
+            \textit{Teaching Assistant and Project Advisor}
+        \end{twocolentry}
+
+        \vspace{0.4 cm}
+
+        \begin{twocolentry}{Fall 2021
+            
+            \textit{Columbia University}}
+            \textbf{COMS 4115: Programming Languages and Translators}
+            
+            \textit{Teaching Assistant and Project Advisor}
+        \end{twocolentry}
+
+        \vspace{0.4 cm}
+
+        \begin{twocolentry}{Spring 2020
+            
+            \textit{Yale University}}
+            \textbf{CS 112: Introduction to Computer Programming}
+            
+            \textit{Head Teaching Assistant (2 of 12)}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Held weekly review section with supplemental exercises
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.4 cm}
+
+        \begin{twocolentry}{Fall 2019
+            
+            \textit{Yale University}}
+            \textbf{CS 50: Introduction to Computer Science}
+            
+            \textit{Head Teaching Assistant (3 of 32)}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Held weekly review section with supplemental exercises
+                \item Led weekly TA meetings for a large cohort of 32 TAs
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.4 cm}
+
+        \begin{twocolentry}{Spring 2019, 2018
+            
+            \textit{Yale University}}
+            \textbf{CS 112: Introduction to Computer Programming}
+            
+            \textit{Teaching Assistant}
+        \end{twocolentry}
+
+        \vspace{0.4 cm}
+
+        \begin{twocolentry}{Fall 2018, 2017
+            
+            \textit{Yale University}}
+            \textbf{CS 50: Introduction to Computer Science}
+            
+            \textit{Teaching Assistant}
+        \end{twocolentry}
         
     \section{Journal and Conference Publications}
+
+        \begin{twocolentry}{ICSE '26}
+            \textbf{Anonymous submission under review}
+
+            \mbox{{\textit{Maxwell Levatich}}}, \mbox{Stephen A. Edwards}
+        \end{twocolentry}
+
+        \vspace{0.4 cm}
         
-        \begin{samepage}
-            \begin{twocolentry}{
-                Jan 2004
-            }
-                \textbf{3D Finite Element Analysis of No-Insulation Coils}
+        \begin{twocolentry}{MILCOM '22}
+            \textbf{C Program Partitioning with Fine-Grained Security Constraints and Post-Partition Verification}
 
-                \vspace{0.10 cm}
+            \mbox{{\textit{Maxwell Levatich}}}, \mbox{Robert Brotzman}, \mbox{Benjamin Flin}, \mbox{Ta Chen}, \mbox{Rajesh Krishnan, Stephen A. Edwards}
+        \end{twocolentry}
 
-                \mbox{Frodo Baggins}, \mbox{\textbf{\textit{John Doe}}}, \mbox{Samwise Gamgee}
-            \end{twocolentry}
+        \begin{twocolentry}{CPAIOR '21}
+            \textbf{Supercharging Plant Configurations Using Z3}
 
+            \mbox{Nikolaj Bjørner}, \mbox{{\textit{Maxwell Levatich}}}, \mbox{Nuno P. Lopes}, \mbox{Andrey Rybalchenko}, \mbox{Chandrasekar Vuppalapati}
+        \end{twocolentry}
 
-            \vspace{0.10 cm}
+        \begin{twocolentry}{VMCAI '20}
+            \textbf{Solving LIA* Using Approximations}
 
-            \begin{onecolentry}
-        \href{https://doi.org/10.1109/TASC.2023.3340648}{10.1109/TASC.2023.3340648}
-            \end{onecolentry}
-        \end{samepage}
+            \mbox{{\textit{Maxwell Levatich}}}, \mbox{Nikolaj Bjørner}, \mbox{Ruzica Piskac}, \mbox{Sharon Shoham}
+        \end{twocolentry}
 
-    \section{Awards and Certifications}
+    \section{Talks}
         
-        \begin{samepage}
-            \begin{twocolentry}{
-                Jan 2004
-            }
-                \textbf{3D Finite Element Analysis of No-Insulation Coils}
+        \begin{twocolentry}{FMCAD '21}
+            \textbf{Using Z3 to Validate Executions of a Program Partitioner}
 
-                \vspace{0.10 cm}
+            at \textit{Formal Methods in Computer-Aided Design Student Forum}
+        \end{twocolentry}
 
-                \mbox{Frodo Baggins}, \mbox{\textbf{\textit{John Doe}}}, \mbox{Samwise Gamgee}
-            \end{twocolentry}
+    \section{Certifications and Honors}
+        
+        \begin{twocolentry}{Spring 2025}
+            \textbf{Columbia CTL Teaching Development Program Certification}
 
+            \textit{Foundational track - advanced track certification expected Fall 2025}
+        \end{twocolentry}
 
-            \vspace{0.10 cm}
+        \vspace{0.4 cm}
 
-            \begin{onecolentry}
-        \href{https://doi.org/10.1109/TASC.2023.3340648}{10.1109/TASC.2023.3340648}
-            \end{onecolentry}
-        \end{samepage}
+        \begin{twocolentry}{Spring 2020}
+            \textbf{Yale Student Research in Computer Science Award}
+
+            \textit{Awarded to 2 Computer Science majors in the graduating class}
+        \end{twocolentry}
+
+        \vspace{0.4 cm}
+
+        \begin{twocolentry}{Fall 2018}
+            \textbf{Yale CS50 SCAZ Award}
+
+            \textit{For ``superior committment and zeal'' as a Computer Science TA (3 of 32)}
+        \end{twocolentry}
 
     \section{Service}
         
-        \begin{samepage}
-            \begin{twocolentry}{
-                Jan 2004
-            }
-                \textbf{3D Finite Element Analysis of No-Insulation Coils}
+        \begin{twocolentry}{POPL '23}
+            \textbf{Student Volunteer} at
+            \textit{Symposium on Principles of Programming Languages}
+        \end{twocolentry}
 
-                \vspace{0.10 cm}
+        \begin{twocolentry}{PLDI '22}
+            \textbf{Student Volunteer} at
+            \textit{Programming Language Design and Implementation}
+        \end{twocolentry}
 
-                \mbox{Frodo Baggins}, \mbox{\textbf{\textit{John Doe}}}, \mbox{Samwise Gamgee}
-            \end{twocolentry}
+        \vspace{0.4 cm}
 
-
-            \vspace{0.10 cm}
-
-            \begin{onecolentry}
-        \href{https://doi.org/10.1109/TASC.2023.3340648}{10.1109/TASC.2023.3340648}
-            \end{onecolentry}
-        \end{samepage}
+        \begin{twocolentry}{CAV '18}
+            \textbf{Artifact Evaluation} for
+            \textit{Conference on Computer-Aided Verification}
+        \end{twocolentry}
 
     \section{Industry}
-        
+
         \begin{twocolentry}{
-        \textit{Cupertino, CA}    
+        Summer 2023, 2024
+
+        \textit{Basking Ridge, NJ}}
+            \textbf{Research Intern}
             
-        \textit{June 2005 – Aug 2007}}
-            \textbf{Software Engineer}
-            
-            \textit{Apple}
+            \textit{Peraton}
         \end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Reduced time to render user buddy lists by 75\% by implementing a prediction algorithm
-                \item Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-                \item Redesigned chat file format and implemented backward compatibility for search
+                \item Implemented pointer dependency tracking for C program compartmentalization (DARPA GAPS program)
+                \item Developed automatic state machine repair technique using Z3's fixedpoint solver (DARPA BPL program)
             \end{highlights}
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.4 cm}
 
         \begin{twocolentry}{
-        \textit{Redmond, WA}    
+        Summer 2020, 2022
             
-        \textit{June 2003 – Aug 2003}}
-            \textbf{Software Engineer Intern}
+        \textit{Redmond, WA}}
+            \textbf{RiSE (Research in Software Engineering) Intern}
             
             \textit{Microsoft}
         \end{twocolentry}
@@ -349,64 +432,59 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-                \item Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-                \item Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-                \item Created a test case generation tool that creates random XML docs from XML Schema
-                \item Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+                \item Prototyped constraint-based automated tournament scheduling solution using Z3 for national sports client
+                \item Optimized constraint-based production line configuration for car manufacturing client
+                \item Extended Z3 with support for theory of Unicode strings
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.4 cm}
+
+        \begin{twocolentry}{
+        Summer 2018
+            
+        \textit{Redwood Shores, CA}}
+            \textbf{Kernel Development Intern}
+            
+            \textit{Oracle}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Backported CVE patches to older supported versions of the Oracle Linux kernel
+                \item Created portable lightweight Docker container and web frontend for internal developement tools
             \end{highlights}
         \end{onecolentry}
     
     \section{Software Projects}
         
         \begin{twocolentry}{
-            
-            
-        \textit{\href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}}}
-            \textbf{Multi-User Drawing Tool}
+        \textit{\href{https://github.com/mlevatich/Abelon}{github.com/mlevatich/Abelon}}}
+            \textbf{Abelon}
         \end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-                \item Tools Used: C++, MFC
+                \item Turn-based tactical role-playing game in Lua with Löve2D engine
+                \item Writing, art, animation, music my own work
             \end{highlights}
         \end{onecolentry}
 
-
-        \vspace{0.2 cm}
+        \vspace{0.4 cm}
 
         \begin{twocolentry}{
-            
-            
-        \textit{\href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}}}
-            \textbf{Synchronized Desktop Calendar}
+
+        \textit{\href{https://github.com/sinaatalay/rendercv}{github.com/name/guy-battle}}}
+            \textbf{Guy Battle}
         \end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-                \item Tools Used: C\#, .NET, SQL, XML
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            
-            
-        \textit{2002}}
-            \textbf{Custom Operating System}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-                \item Tools Used: C
+                \item 2D fighting game in C with SDL2 rendering and audio library
+                \item Art, animation, music my own work
             \end{highlights}
         \end{onecolentry}
 
