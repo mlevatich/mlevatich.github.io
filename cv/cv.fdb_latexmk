@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1755879055.56835 "/Users/max/m/cs/website/cv/cv.tex" "cv.pdf" "cv" 1755879056.10223 0
-  "/Users/max/m/cs/website/cv/cv.tex" 1755879055.39357 15914 108d241e087d8cda4e6908e02d61b8a6 ""
+["pdflatex"] 1759086363.56528 "/Users/max/m/cs/website/cv/cv.tex" "cv.pdf" "cv" 1759086364.13659 0
+  "/Users/max/m/cs/website/cv/cv.tex" 1759086363.34796 15914 0f4c065676d5475f7b688aff50ad7511 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -118,8 +118,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1755004119.15665 5467964 547f8ab21f0b055f5f6732add3d70bb6 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1718994654 8221424 75439734e0ea0ec226f82319425ee5d1 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "cv.aux" 1755879056.036 2875 2197cb0709f601252ee86a70e98be4e5 "pdflatex"
-  "cv.tex" 1755879055.39357 15914 108d241e087d8cda4e6908e02d61b8a6 ""
+  "cv.aux" 1759086364.06848 2875 2197cb0709f601252ee86a70e98be4e5 "pdflatex"
+  "cv.tex" 1759086363.34796 15914 0f4c065676d5475f7b688aff50ad7511 ""
   (generated)
   "cv.aux"
   "cv.log"
